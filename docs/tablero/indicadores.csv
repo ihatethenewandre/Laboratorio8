@@ -1,0 +1,14 @@
+indicador,pregunta,filas,segundos
+ind_01_resumen_anual,P1. ¿Cuántos viajes válidos e ingresos genera el servicio de taxis cada año y cuál es el monto promedio por viaje?,3,22.463704371999484
+ind_02_tendencia_mensual,P2. ¿Cómo evoluciona mes a mes la demanda de taxis amarillos y verdes?,64,15.493817413000215
+ind_03_demanda_horaria,P3. ¿En qué horas del día se concentra la demanda y cómo cambia entre semana y fin de semana?,144,16.080347392002295
+ind_04_velocidad_horaria,P4. ¿En qué horas el tráfico hace más lentos los viajes?,72,22.58362875900275
+ind_05_dia_semana,P5. ¿Qué días de la semana tienen más viajes y viajes más caros?,21,26.535171196999727
+ind_06_metodo_pago,P6. ¿Cómo pagan los pasajeros y cómo cambia la participación de cada método entre años?,30,20.60325769100018
+ind_07_propina,P7. ¿Qué porcentaje de propina dejan los pasajeros que pagan con tarjeta y cómo varía por franja horaria y tipo de taxi?,30,20.094687288998102
+ind_08_zonas_origen,P8. ¿Desde qué zonas sale la mayor cantidad de viajes de cada tipo de taxi?,90,19.8819439100007
+ind_09_distritos,P9. ¿Cómo se reparten los viajes y el ingreso entre los distritos de la ciudad?,47,18.3395036289985
+ind_10_aeropuertos,P10. ¿Qué peso tienen los viajes hacia o desde aeropuertos y cuánto más cuestan que un viaje urbano?,12,22.231066569998802
+ind_11_participacion_tipo,P11. ¿Qué participación tienen los taxis verdes frente a los amarillos en viajes e ingreso y cómo cambia en el tiempo?,6,18.1211105959992
+ind_12_calidad_datos,P12. ¿Qué proporción de los registros publicados no es utilizable y por qué motivo?,52,16.627709946998948
+ind_13_cargos_mensuales,"P13. ¿Cómo cambian los recargos que paga el pasajero, en particular el cargo de congestión CBD?",32,21.196679042997857

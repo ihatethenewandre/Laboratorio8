@@ -1,0 +1,39 @@
+# CC3084 - Lab 8: DuckDB
+#
+#   docker compose up --build
+#
+# La primera construccion descarga varios cientos de MB y puede tardar.
+
+services:
+  lab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lab8-lab
+    working_dir: /workspace
+    ports:
+      - "127.0.0.1:8888:8888"
+    volumes:
+      - ./data:/workspace/data
+      - ./notebooks:/workspace/notebooks
+      - ./scripts:/workspace/scripts
+      - ./sql:/workspace/sql
+      - ./docs:/workspace/docs
+    restart: unless-stopped
+
+  metabase:
+    build:
+      context: .
+      dockerfile: metabase.Dockerfile
+    container_name: lab8-metabase
+    ports:
+      - "127.0.0.1:3001:3000"
+    volumes:
+      - metabase-data:/home/metabase/data
+      - ./data:/workspace/data
+    environment:
+      - MB_DB_FILE=/home/metabase/data/metabase.db
+    restart: unless-stopped
+
+volumes:
+  metabase-data:

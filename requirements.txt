@@ -1,0 +1,9 @@
+# CC3084 - Lab 8: DuckDB
+# duckdb debe mantenerse en la misma version que el driver de DuckDB
+# instalado en Metabase (ver metabase.Dockerfile).
+duckdb==1.5.5
+jupyterlab==4.6.4
+pandas==3.0.6
+pyarrow==25.0.1
+matplotlib==3.11.2
+requests==2.34.2

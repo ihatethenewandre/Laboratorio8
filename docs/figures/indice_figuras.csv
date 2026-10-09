@@ -1,0 +1,16 @@
+numero,archivo,descripcion
+1,Figura1.png,Registros por archivo mensual de 2026 para taxis amarillos y verdes
+2,Figura2.png,Porcentaje de registros de 2026 con cada problema de calidad por tipo de taxi
+3,Figura3.png,Viajes válidos promedio por día en cada mes de 2026 por tipo de taxi
+4,Figura4.png,"Perfil horario de la demanda y de la velocidad mediana en 2026, entre semana y fin de semana"
+5,Figura5.png,Distribución de la distancia de los viajes válidos de 2026 por tipo de taxi
+6,Figura6.png,Métodos de pago y proporción de viajes con propina registrada en 2026 por tipo de taxi
+7,Figura7.png,Viajes válidos por mes en los meses disponibles tanto en 2024 como en 2026
+8,Figura8.png,"Mediana del tiempo de cada consulta del benchmark según el volumen, Parquet directo frente a tabla DuckDB"
+9,Figura9.png,Cociente entre el tiempo sobre Parquet y el tiempo sobre la tabla DuckDB por consulta y volumen
+10,Figura10.png,"Tablero de indicadores, demanda, tiempos y participación por tipo de taxi, años 2024, 2026"
+11,Figura11.png,"Tablero de indicadores, pago, geografía, aeropuertos, calidad y recargos, años 2024, 2026"
+12,Figura12.png,"Tablero de indicadores, demanda, tiempos y participación por tipo de taxi, años 2024, 2025, 2026"
+13,Figura13.png,"Tablero de indicadores, pago, geografía, aeropuertos, calidad y recargos, años 2024, 2025, 2026"
+14,Figura14.png,"Viajes válidos por día en cada mes, comparación de 2024, 2025 y 2026 por tipo de taxi"
+15,Figura15.png,"Evolución de métodos de pago, perfil horario y recargos por viaje entre 2024 y 2026"
